@@ -1,0 +1,37 @@
+{
+	"home" : {
+		"aboutUs": {
+			"title" : "About Us",
+			"content" : "Have been avaialble for a while"
+		},
+		"contactUs" : {
+			"phoneNumber" : "613-444-4444",
+			"address" : "some address",
+			"postalCode" : "k1g 2d7",
+			"city" : "Ottawa",
+			"province" : "Ontario",
+			"country" : "Canada",
+			"email" : "email@email.com"
+		},
+		"testimonials" : [
+			{
+				"testimonial" : "You did a great job",
+				"name" : "John Doe"
+			},
+			{
+				"testimonial" : "Would call them again",
+				"name" : "Clair Bear"
+			}
+			],
+
+		"menu" : {
+			"home" : "Home",
+			"services" : "Services",
+			"contactUs" : "Contact Us",
+			"faq" : "FAQ"
+		},
+		"serviceMenu" : {
+			
+		}
+	}
+}
