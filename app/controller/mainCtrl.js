@@ -1,6 +1,7 @@
 app.controller("mainCtrl", function($scope, $http){
 	console.log("mainCtrl");
-	$scope.companyTitle = "B and B Renovations and Services";
+	$scope.companyTitle = "B & B Renovations and Services";
+
 	$scope.data = {
 		"home" : {
 			"aboutUs": {
@@ -30,11 +31,33 @@ app.controller("mainCtrl", function($scope, $http){
 			"menu" : {
 				"home" : "Home",
 				"services" : "Services",
-				"contactUs" : "Contact Us",
-				"faq" : "FAQ"
+				"contactUs" : "Contact",
+				"faq" : "FAQ",
+				"aboutUs" : "About Us"
 			},
-			"serviceMenu" : {
-
+			"services" : {
+				"title" : "Services",
+				"list" : {
+					"basement" : "Basement",
+					"kitchen" : "Kitchen",
+					"fecncing" : "Fencing",
+					"deck" : "Deck",
+					"interlock" : "Interlock | Driveway",
+					"disaster" : "Disaster Restoration",
+					"hvac" : "HVAC Systems",
+					"appliances" : "Appliance Installation & Repair",
+					"carpet" : "Carpet Installation"
+				}
+			},
+			"contact" : {
+				"title" : "Get a free quote now!",
+				"message" : "We look forward to serving you.",
+				"address" : "",
+				"province" : "ON, Canada",
+				"postal" : "",
+				"phone1" : "(613) 979-1962",
+				"phone2" : "(613) 276-7944",
+				"email" : "bbrenovserv@gmail.com"
 			}
 		}
 	}
