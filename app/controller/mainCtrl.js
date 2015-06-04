@@ -40,7 +40,7 @@ app.controller("mainCtrl", function($scope, $http){
 				"list" : {
 					"basement" : "Basement",
 					"kitchen" : "Kitchen",
-					"fecncing" : "Fencing",
+					"fencing" : "Fencing",
 					"deck" : "Deck",
 					"interlock" : "Interlock | Driveway",
 					"disaster" : "Disaster Restoration",
@@ -59,7 +59,28 @@ app.controller("mainCtrl", function($scope, $http){
 				"phone2" : "(613) 276-7944",
 				"email" : "bbrenovserv@gmail.com"
 			}
+		},
+		"images" : {
+			"basement" : [
+			"include/img/services/img1.jpg",
+			"include/img/services/img2.jpg"
+			],
+			"kitchen" :[
+			"include/img/services/img3.jpg",
+			"include/img/services/img4.jpg",
+			"include/img/services/img5.jpg"
+			],
+			"deck" : [
+			"include/img/services/img6.jpg",
+			"include/img/services/img7.jpg",
+			"include/img/services/img8.jpg"
+			],
+			"fencing" : [
+			"include/img/services/img9.jpg",
+			"include/img/services/img10.jpg"
+			]
 		}
+
 	}
 	console.log($scope.data);
 	/*$http.get('app/data.json').
