@@ -64,14 +64,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- #camera_wrap_1 -->
 	<div class="fluid_container">
         <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
-            <div data-thumb="images/thumbs/slider1.jpg" data-src="images/slider/slider1.jpg">
+            <div data-thumb="images/gallery/gallery-img1.jpg" data-src="images/gallery/gallery-img1.jpg">
             </div>
-            <div data-thumb="images/thumbs/slider1.jpg" data-src="images/slider/slider2.jpg">
+            <div data-thumb="images/gallery/gallery-img2.jpg" data-src="images/gallery/gallery-img2.jpg">
             </div>
-            <div data-thumb="images/thumbs/slider1.jpg" data-src="images/slider/slider3.jpg">
+            <div data-thumb="images/gallery/gallery-img3.jpg" data-src="images/gallery/gallery-img3.jpg">
             </div>
-            <div data-thumb="images/thumbs/slider1.jpg" data-src="images/slider/slider4.jpg">
-            </div>            
+            <div data-thumb="images/gallery/gallery-img4.jpg" data-src="images/gallery/gallery-img4.jpg">
+            </div>  
+            <div data-thumb="images/gallery/gallery-img6.jpg" data-src="images/gallery/gallery-img6.jpg">
+            </div>           
              </div><!-- #camera_wrap_1 -->
          <div class="clear"></div>
 	</div>
@@ -105,11 +107,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<h2>{{data.home.services.title}}</h2>
 					<div class="text1-nav">
 						<ul>
-							<li ng-repeat="item in data.home.services.list"><a href="">{{item.title}}</a></li>
+							<li ng-repeat="item in data.home.services.list"><a href={{item.url}}>{{item.title}}</a></li>
 					    </ul>
 					</div>
 				</div>
-				<div class="col_1_of_3 span_1_of_3">
+				<!--<div class="col_1_of_3 span_1_of_3">
 					<h2>Lorem Ipsum simply</h2>
 					<h4>The standard chunk of Lorem Ipsum dolor sit amet,</h4>
 					<p class="para">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage</p>
@@ -120,7 +122,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<h4>The standard chunk of Lorem Ipsum dolor sit amet,</h4>
 					<p class="para">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage</p>
 					<div class="button top"><a href="details.html">Read More</a></div>
-				</div>
+				</div>-->
 				<div class="clear"></div>
 			</div>
 		<!--end content_btm-->

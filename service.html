@@ -35,10 +35,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 
 		<div class="ser-grid-list img_style" ng-repeat="item in data.home.services.list">
-			<a href={{item.url}}><img src="images/ser_pic1.jpg" alt=""></a>
+			<a href={{item.url}}><img src={{item.sectionImg}} alt=""></a>
 			
 			<p class="para">{{item.title}}</p>
-				<div class="button top1"><a href="details.html">Read More</a></div>
+				<div class="button top1"><a href={{item.url}}>Read More</a></div>
 		</div>
 	
 	

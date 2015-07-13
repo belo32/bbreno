@@ -103,7 +103,8 @@ h2{
 .grid_1_of_3{
 	display: block;
 	float:left;
-	margin-left: 4%;
+	margin-right: 3%;
+	margin-bottom:2%;
 }
 .grid_1_of_3.bg1{
 	background: #736761;
@@ -120,7 +121,7 @@ h2{
 .images_1_of_3 {
 	width: 30.333%;
 	position: relative;
-	height:455px; 
+	
 }
 .images_1_of_3  h3{
 	letter-spacing: 1px;
@@ -344,8 +345,8 @@ h2{
 }
 .ser-grid-list{
 	float: left;
-	width: 21.33333%;
-	margin-right: 4%;
+	width: 20%%;
+	margin-right: 3%;
 }
 .ser-grid-list h5{
 	line-height: 1.8em;
